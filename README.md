@@ -1,53 +1,33 @@
-# 🏎️ F1 Live Widget
+# Persona 3 Reload inspired Widget
 
-A sleek, transparent desktop widget for Formula 1 fans built with **Tauri v2**, **React**, and **Vanilla CSS**. It provides live standings for both the Driver's and Constructor's championships right on your desktop, powered by the [OpenF1 API](https://openf1.org/).
+A simple Day, date and time widget inspired from Person 3 Reload
+Background is Day of the week, Foreground is Date in DD/MM format, with a Sun Clock for time
 
-## ✨ Features
+## Screenshots
 
-- **Live Driver Leaderboard**: Real-time updates of the current F1 Driver Standings.
-- **Live Constructor Teamboard**: Keep track of the team championship battles.
-- **Trackmap View**: See the current race circuit layout.
-- **Glassmorphism UI**: Beautiful translucent F1-themed aesthetics with full dark mode support.
-- **Frameless Window**: Starts seamlessly pinned to the top-right of your screen without bulky window decorations.
-- **Drag & Drop**: Easily move the widget around your screen using the drag handle.
-- **Responsive Animations**: Features custom F1 red loading spinners and smooth hover transitions.
+- Night Time (not Dark Hour) :-
+  
+     <img width="500" height="87" alt="image" src="https://github.com/user-attachments/assets/88ec35c1-419d-475a-99b8-0f79f8f35744" />
+- Morning Time (around 9 am) :-
+  
+     <img width="500" height="87" alt="image" src="https://github.com/user-attachments/assets/eff3acae-b6cd-4dc8-bd72-f136215e960d" />
+- Noon :-
+  
+     <img width="500" height="87" alt="image" src="https://github.com/user-attachments/assets/8d742716-f831-4b47-bfe5-c6b75fb76bd8" />
+- Evening :-
+  
+     <img width="500" height="87" alt="image" src="https://github.com/user-attachments/assets/a0503908-c349-4072-b4a7-c3165011cf30" />
+- from Midnight to 1 am (Dark Hour) :-
+  
+     <img width="500" height="87" alt="image" src="https://github.com/user-attachments/assets/95d40515-d808-4e5f-b975-03b027b0835c" />
 
-## 🛠️ Tech Stack
 
-- **Frontend**: React + Vite + Vanilla CSS
-- **Backend**: Tauri v2 (Rust)
-- **Data Source**: OpenF1 API
 
-## 🚀 Getting Started
 
-### Prerequisites
+## Stack
+- Tauri for window rendering 
+- Javascript with ReactJS for frontEnd
+- Rust for simple backend
 
-- [Node.js](https://nodejs.org/) (v18+)
-- [Rust](https://www.rust-lang.org/) (latest stable)
-- OS-specific Tauri dependencies (see [Tauri v2 Prerequisites](https://v2.tauri.app/start/prerequisites/))
 
-### Installation
 
-1. Clone the repository and navigate to the project directory:
-   ```bash
-   git clone <your-repo-url>
-   cd F1-widget
-   ```
-
-2. Install JavaScript dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the development server with Hot Module Replacement (HMR):
-   ```bash
-   npm run tauri dev
-   ```
-
-### Build for Production
-
-To create a highly optimized, standalone executable for your operating system:
-```bash
-npm run tauri build
-```
-The compiled bundles and installers will be generated inside `src-tauri/target/release/bundle`.
