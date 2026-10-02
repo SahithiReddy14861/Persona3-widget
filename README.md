@@ -29,5 +29,14 @@ Background is Day of the week, Foreground is Date in DD/MM format, with a Sun Cl
 - Javascript with ReactJS for frontEnd
 - Rust for simple backend
 
-
+## Installation :-
+### Direct :-
+- Download the msi installer from releases page
+- Install into your desired directory
+- #### Enabling startup run :-
+  if you want to run the widget on startup of your machine, do these steps :-
+  - 1.) Create a shortcut of your installed executable
+  - 2.) press Win+R and type in "shell:startup" , press Enter
+  - 3.) Move the shortcut into this folder
+  - 4.) Close everything and restart your machine to test everything out! 
 
