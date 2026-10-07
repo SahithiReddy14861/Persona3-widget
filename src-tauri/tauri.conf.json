@@ -13,7 +13,7 @@
     "windows": [
       {
         "title": "widget-template",
-        "width": 500,
+        "width": 480,
         "height": 70,
         "transparent": true,
         "decorations": false,
